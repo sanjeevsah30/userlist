@@ -66,7 +66,7 @@ const Cards = ({toggle}) => {
                 )}
               </div>
             )}
-            <span style={{color:"grey",fontWeight:"700"}}
+            <span style={{color:"grey",cursor:"pointer"}}
               onClick={() => {
                 if (page < 10) setPage(page + 1);
               }}

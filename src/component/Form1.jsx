@@ -21,7 +21,6 @@ const Form1 = ({setopenForm}) => {
         return false;
     }
 
-    alert("form Submitted");
     setopenForm(false);
 
     return true;
